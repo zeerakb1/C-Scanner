@@ -1,0 +1,41 @@
+int str;
+
+// correct input
+/* Function ABC*/
+
+
+bool ABC(int a , string b, string str)
+{
+    int c;
+    a = 5;
+    c = 10.4;
+    b = "Ali";
+    str = "Sana";
+
+    while ((c < 1))
+    {
+        while (false)
+        {
+            c= c+a;
+            if (a <= 10)
+            {
+                // "Welcome to CS300"
+                return true;
+            }
+            else
+                return false;
+        }
+    }
+    while (true)
+    {
+        b = ADD(a, c);
+        cout << "Programming" << endl;
+        b = b*c;
+    }
+    /*d = d+ (b +((c+2)* a));
+    if (a = b)
+        str2 = "Badar";     */
+
+
+        return b;
+}
