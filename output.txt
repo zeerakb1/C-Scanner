@@ -1,0 +1,34 @@
+<keyword,int> <error,str> <delimiter,;> 
+<comment,// correct input> 
+<multiline-comment,/* Function ABC*/> 
+<keyword,bool> <identifier,ABC> <operator,(> <keyword,int> <error,a> <delimiter,,> <keyword,string> <error,b> <delimiter,,> <keyword,string> <error,str> <operator,)> 
+<operator,{> 
+<keyword,int> <error,c> <delimiter,;> 
+<error,a> <operator,=> <intConstant,5> <delimiter,;> 
+<error,c> <operator,=> <floatConstant,10.4> <delimiter,;> 
+<error,b> <operator,=> <stringConstant,"Ali"> <delimiter,;> 
+<error,str> <operator,=> <stringConstant,"Sana"> <delimiter,;> 
+<keyword,while> <operator,(> <operator,(> <error,c> <operator,<> <intConstant,1> <operator,)> <operator,)> 
+<operator,{> 
+<keyword,while> <operator,(> <keyword,false> <error,> <operator,)> 
+<operator,{> 
+<error,c> <operator,=> <error,c> <operator,+> <error,a> <delimiter,;> 
+<keyword,if> <operator,(> <error,a> <operator,<=> <intConstant,10> <operator,)> 
+<operator,{> 
+<comment,// "Welcome to CS300"> 
+<keyword,return> <keyword,true> <error,> <delimiter,;> 
+<operator,}> 
+<keyword,else> <keyword,return> <keyword,false> <error,> <delimiter,;> 
+<operator,}> 
+<operator,}> 
+<keyword,while> <operator,(> <keyword,true> <error,> <operator,)> 
+<operator,{> 
+<error,b> <operator,=> <identifier,ADD> <operator,(> <error,a> <delimiter,,> <error,c> <operator,)> <delimiter,;> 
+<keyword,cout> <operator,<<> <stringConstant,"Programming"> <operator,<<> <keyword,endl> <error,> <delimiter,;> 
+<error,b> <operator,=> <error,b> <operator,*> <error,c> <delimiter,;> 
+<operator,}> 
+<multiline-comment,/*d = d+ (b +((c+2)* a));
+    if (a = b)
+        str2 = "Badar";     */> 
+<keyword,return> <error,b> <delimiter,;> 
+<operator,}> 
